@@ -4,6 +4,11 @@
   "main": "src/server.ts",
   "compatibility_date": "2025-09-02",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  // Site audit crawl parses HTML (cheerio) + runs checks per page — CPU-heavy.
+  // Raise the per-invocation CPU cap to the max (5 min); requires Workers Paid.
+  "limits": {
+    "cpu_ms": 300000,
+  },
   "observability": {
     "enabled": true,
     // Spans are billed as observability events (free tier 200k/day); add a
