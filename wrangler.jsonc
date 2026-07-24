@@ -73,18 +73,18 @@
   "kv_namespaces": [
     {
       "binding": "KV",
-      "id": "4abd52f3f2c549ac83cc2cb4ceec8620",
+      "id": "b5c663f67218407ebe6ae75774700260",
     },
     {
       "binding": "OAUTH_KV",
-      "id": "bd1759494309474a9b423b029967b0db",
+      "id": "7b5d1325413d4e70b740234e16f79f98",
     },
   ],
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "open-seo",
-      "database_id": "37bee90a-e1aa-404f-b01e-b0d1d479bda1",
+      "database_name": "open-seo-delpa",
+      "database_id": "955f2523-27c4-4062-b6f6-86d72c1c134f",
       "migrations_dir": "drizzle",
     },
   ],
@@ -107,7 +107,7 @@
   // ],
   "r2_buckets": [
     {
-      "bucket_name": "open-seo",
+      "bucket_name": "open-seo-delpa",
       "binding": "R2",
     },
   ],
